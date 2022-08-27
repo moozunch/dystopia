@@ -1,0 +1,139 @@
+@font-face {
+				font-family: 'roboto';
+				src: url(fonts/heavitas.ttf);
+				font-style: normal;
+				font-weight: 500;
+				
+}
+body{
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			weight: 100vh;
+}
+.navigation-bar{
+			box-sizing:border-box;
+			margin: 0;
+			padding: 0;
+			background-color: #24252A;
+			}
+li, a, button {
+color:#edf0f1;
+font-family: 'san-serif';
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+}
+header{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 30px 10%;
+				}
+.logo {
+				cursor: pointer;
+}
+.nav__links{
+				list-style: none;
+}
+.nav__links li{
+				display: inline-block;
+				padding: 0px 20px;
+}
+.nav__links li a{
+				transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+color:#0088a9
+}
+button {
+				padding:9px 25px;
+				background-color: rgba(0,136,169,1);
+				border: none;
+				border-radius: 50px;
+				cursor: pointer;
+				transition: all 0.3s ease 0s;
+}
+button: hover{
+				background-color: rgba (0,136,169,0)
+}
+.banner-title{
+				margin:80px 130px;
+				color: #fff;
+}
+.banner-title h1{
+				font-size: 64px;
+				margin-bottom: 30px;
+}
+.banner-title h1 span{
+			 color: rgba(0,136,169,1);
+}
+.vertical-bar{
+				height: 100%;
+				background: #000;
+				top: 0;
+				left: 0;
+				position: absolute;
+				
+}
+.search-icons{
+				height: 60%;
+				width: 80px;
+				
+}
+.search-icons .fa{
+				margin: 45px 23px;
+				display: block;
+				color: #fff;
+				font-size: 30px;
+				cursor: pointer;
+}
+.social-icons{
+				height: 35%;
+				width: 80px;
+				background: rgba(0,136,169,1);
+				text-align: center;
+				padding-top: 27%;
+				bottom: 0;
+				position: absolute;
+				
+}
+.social-icons .fa{
+				margin: 15px 23px;
+				display: block;
+				padding: 8px;
+				border: 1px solid #000;
+				border-radius: 50%;
+				cursor: pointer;
+}
+.aksesoris h3{
+				color:#fff;
+				font-size: 35px;
+				margin-bottom: 30px;
+}
+.aksesoris h3 span{
+			 color: rgba(0,136,169,1);
+}
+.art{
+				width: 300px;
+				margin: 15px 23px;
+				display: block;
+				padding: 8px;				
+				border: 1px solid #000;
+				border-radius: 50%;
+				cursor: pointer;
+}
+.leo{
+				color: #fff;	
+				font-size: 30px;
+				margin-bottom: 30px;				
+							
+}
+.biografi{
+				font-size: 22px;
+				font-style: italic;
+				font-weight:400;
+				text-align: right;
+				text-decoration: none; 
+				
+}
